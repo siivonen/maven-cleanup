@@ -1,0 +1,13 @@
+Scripts for removing extra dependencies and dependency managements from (large) Maven projects.
+
+To remove all dependencies that are not direcly needed from Maven project /my_project/pom.xml and all it's sub modules run:
+
+	./remove-extra-dependencies.rb /my_project/pom.xml 'mvn clean install -N'
+
+The command 'mvn clean install -N' will be used to determine if it was OK to remove a dependency or not.
+
+To remove the dependency management entries that are not needed in project /my_project/pom.xml run:
+
+	./remove-extra-dependency_management.rb /my_project/pom.xml
+
+More on this issue: http://samulisiivonen.blogspot.com/
