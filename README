@@ -10,4 +10,4 @@ To remove the dependency management entries that are not needed in project /my_p
 
 	./remove-extra-dependency_management.rb /my_project/pom.xml
 
-More on this issue: http://samulisiivonen.blogspot.com/
+More on this: http://samulisiivonen.blogspot.com/2012/01/cleanin-up-maven-dependencies.html
